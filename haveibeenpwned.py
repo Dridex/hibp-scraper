@@ -17,14 +17,11 @@ def sendEmail():
 
 	pwnedAccounts = hibpScrape.scrapeTotal()
 
-	sender = 'hibp@x86.sh'
-	# actual recipients
-	#receivers = ['jack@x86.sh','flexo01010@gmail.com','sean.g.egan@gmail.com','collsean1@gmail.com','mumei.musha@gmail.com', 'anish1990@gmail.com','emmamareebacchetto@gmail.com']
-	# test recipients
-	receivers = ['jack@x86.sh']
+	sender = ''
+	receivers = ['']
 
-	message = """From: hibp script <hibp@x86.sh>
-To: Jack <jack@x86.sh>
+	message = """From: hibp script <test@test.com>
+To: Jack <test@test.com>
 Subject: New breach in HIPB!
 
 New breach loaded in hibp database. See below.

@@ -13,7 +13,6 @@ def scrapeTotal():
 
 	count = 0
 	while count < (len(index)-1):
-	#for line in index:
 		if 'pwnedSummaryRow' in index[count]:
 			summary.append(index[count+1])
 			summary.append(index[count+2])
