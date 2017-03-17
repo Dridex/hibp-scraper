@@ -21,7 +21,7 @@ def sendEmail():
 	receivers = ['']
 
 	message = """From: hibp script <test@test.com>
-To: Jack <test@test.com>
+To: Test <test@test.com>
 Subject: New breach in HIPB!
 
 New breach loaded in hibp database. See below.
